@@ -11,7 +11,7 @@ it('concatenates strings to greet a special guest in `greetSpecialGuest`', funct
 it('interpolates a string in `conversation`', function() {
   expect(conversation).toEqual(`Let's talk about ${topic}.`)
 })
-var greeting = "Hello, everbody!";
+var greeting = "Hello, everybody!";
 var specialGuest = "Niel deGrasse Tyson"
 var greetSpecialGuest = `Hello, ${specialGuest}!`
 var topic = 'space';

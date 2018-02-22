@@ -13,9 +13,6 @@ it('interpolates a string in `conversation`', function() {
 })
 var greeting = "Hello, everbody!";
 var specialGuest = "Niel deGrasse Tyson"
-var greetSpecialGuest = 'Hello' + specialGuest + '!';
+var greetSpecialGuest = `Hello, ${specialGuest}!`
 var topic = 'space';
-var conversation = `${topic}`;
-greeting = 'Hello, everybody!'
-greetSpecialGuest = `Hello ${specialGuest}!`
-conversation = "Let's talk about ${topic}."
+var conversation = 'Let\'s talk about ${topic}.'
